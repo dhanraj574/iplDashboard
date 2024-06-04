@@ -1,0 +1,56 @@
+.latestmatch-section {
+  font-family: Bree serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #0f172a;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+}
+.latestmatch-details {
+  display: flex;
+  justify-content: space-between;
+  width:60%;
+}
+.latestmatch {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  min-width:220px;
+}
+
+.latestmatchteam-name {
+  margin: 0px;
+  font-size: 25px;
+  color: #ffffff;
+}
+.latestmatch-matchdate {
+  font-size: 18px;
+  color: #ffffff;
+}
+.latestMatch-venue {
+  font-size: 14px;
+  color: #ffffff;
+}
+.latestMatch-result {
+  font-size: 14px;
+  color: #ffffff;
+}
+.latestmatch-logo {
+  width: 200px;
+}
+.latestmatchteam-logo {
+  align-self: center;
+}
+.latestmatch-heighlights-cont {
+  text-align: right;
+  min-width:220px;
+}
+
+.heighlights-heading {
+  font-size: 14px;
+}
+.heighlights-content {
+  font-size: 14px;
+}

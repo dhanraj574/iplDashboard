@@ -1,0 +1,36 @@
+.team-matches {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+  padding: 30px;
+  font-family: Bree serif;
+  gap: 30px;
+}
+.teambanner {
+  align-self: center;
+}
+.latestmatches-heading {
+  font-size: 18px;
+  color: #ffffff;
+}
+.teambanner-img {
+  width: 100%;
+}
+.recentmatch-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.team-matches {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+}
+.loader {
+  align-self: center;
+}

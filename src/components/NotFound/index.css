@@ -1,0 +1,13 @@
+.page-notfound {
+  font-size: 30px;
+  font-family: Bree serif;
+  color: #ffffff;
+  font-weight: 600;
+  align-self: center;
+}
+.notfound {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+}
