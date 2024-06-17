@@ -34,3 +34,17 @@
 .loader {
   align-self: center;
 }
+
+.back-btn {
+  height: 40px;
+  width: 80px;
+  border-width: 0px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: rgb(47, 93, 193);
+}
+
+.back-link {
+  display: flex;
+  justify-content: center;
+}
