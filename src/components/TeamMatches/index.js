@@ -1,5 +1,6 @@
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
+import {Link} from 'react-router-dom'
 import LatestMatch from '../LatestMatch'
 import MatchCard from '../MatchCard'
 
@@ -103,6 +104,11 @@ class TeamMatches extends Component {
         ) : (
           this.renderTeamMatch()
         )}
+         <Link to="/" className="back-link">
+          <button type="button" className="back-btn">
+            Back
+          </button>
+        </Link>
       </div>
     )
   }
